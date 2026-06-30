@@ -1,0 +1,559 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Navbar from "../components/Navbar.astro";
+import "../styles/global.css";
+---
+
+<Layout title="The Studio | Imprints Creations">
+  <Navbar />
+  <main style="padding-top: var(--nav-h);">
+
+    <!-- Hero -->
+    <section class="studio-hero">
+      <img src="/images/studio/studio-hero.jpg" alt="Imprints Tattoo Studio" class="studio-hero-img" />
+      <div class="studio-hero-overlay"></div>
+      <div class="container studio-hero-content">
+        <p class="eyebrow" style="color:var(--gold-secondary);">The Studio</p>
+        <div class="divider divider-center" style="background:var(--gold-secondary);"></div>
+        <h1 class="display display-xl" style="color:#fff;">
+          Where every tattoo begins <em style="color:var(--gold-secondary);">with a conversation.</em>
+        </h1>
+      </div>
+    </section>
+
+    <!-- Philosophy -->
+    <section class="section" style="background:var(--bg);">
+      <div class="container philosophy-grid">
+        <div class="philosophy-text">
+          <p class="eyebrow">Our Philosophy</p>
+          <div class="divider"></div>
+          <h2 class="display display-lg" style="color:var(--text);">
+            Great tattoos aren't <em style="color:var(--gold-primary);">chosen.</em>
+          </h2>
+          <h2 class="display display-lg" style="color:var(--text); margin-top:0.5rem;">
+            They're <em style="color:var(--gold-primary);">created.</em>
+          </h2>
+          <p class="body-lg" style="margin-top:1.5rem;">
+            Every tattoo starts with understanding your story, your ideas, and the
+            connection you want your artwork to carry. We believe every design should
+            be as personal as the person wearing it.
+          </p>
+        </div>
+        <div class="philosophy-img">
+          <img src="/images/studio/studio-work.jpg" alt="Naveen Nambiar tattooing" class="philosophy-photo" />
+          <div class="philosophy-accent"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Your Journey -->
+    <section class="section" style="background:var(--warm-surface);">
+      <div class="container">
+        <div style="text-align:center; margin-bottom:4rem;">
+          <p class="eyebrow">The Process</p>
+          <div class="divider divider-center"></div>
+          <h2 class="display display-lg" style="color:var(--text);">
+            Your <em style="color:var(--gold-primary);">Journey</em>
+          </h2>
+        </div>
+        <div class="journey-grid">
+          <div class="journey-step">
+            <div class="journey-icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+              </svg>
+            </div>
+            <div class="journey-number">01</div>
+            <h3 class="journey-title">Consultation</h3>
+            <p class="body-md">We start with a conversation. Tell us your idea, your story, and what the tattoo means to you.</p>
+          </div>
+          <div class="journey-step">
+            <div class="journey-icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/>
+              </svg>
+            </div>
+            <div class="journey-number">02</div>
+            <h3 class="journey-title">Concept Development</h3>
+            <p class="body-md">We develop a custom design based on your story, style preference, and body placement.</p>
+          </div>
+          <div class="journey-step">
+            <div class="journey-icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+              </svg>
+            </div>
+            <div class="journey-number">03</div>
+            <h3 class="journey-title">Design Approval</h3>
+            <p class="body-md">You review and approve the design before we begin. Your comfort and confidence matter.</p>
+          </div>
+          <div class="journey-step">
+            <div class="journey-icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"/><line x1="16" y1="8" x2="2" y2="22"/><line x1="17.5" y1="15" x2="9" y2="15"/>
+              </svg>
+            </div>
+            <div class="journey-number">04</div>
+            <h3 class="journey-title">Tattoo Session</h3>
+            <p class="body-md">In a clean, relaxed environment we bring your design to life with precision and care.</p>
+          </div>
+          <div class="journey-step">
+            <div class="journey-icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+            </div>
+            <div class="journey-number">05</div>
+            <h3 class="journey-title">Aftercare</h3>
+            <p class="body-md">We guide you through aftercare so your tattoo heals perfectly and stays vibrant.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Styles + Recent Work Combined -->
+    <section class="section" id="styles" style="background:var(--warm-surface);">
+      <div class="container">
+        <div style="text-align:center; margin-bottom:3rem;">
+          <p class="eyebrow">Portfolio</p>
+          <div class="divider divider-center"></div>
+          <h2 class="display display-lg" style="color:var(--text);">
+            Tattoo <em style="color:var(--gold-primary);">Styles & Work</em>
+          </h2>
+        </div>
+
+        <div class="styles-row">
+          <span class="style-text">Fine Line</span>
+          <span class="style-text">Minimal</span>
+          <span class="style-text">Geometric</span>
+          <span class="style-text">Mandala</span>
+          <span class="style-text">Portrait</span>
+        </div>
+        <div class="styles-row" style="margin-bottom:3rem;">
+          <span class="style-text">Traditional</span>
+          <span class="style-text">Black & Grey</span>
+          <span class="style-text">Colour</span>
+          <span class="style-text">Cover-Ups</span>
+          <span class="style-text">Custom Designs</span>
+        </div>
+
+        <div class="mosaic-columns">
+          <img src="/images/studio/mosaic-big-01.jpg" alt="Tattoo by Imprints Creations" />
+          <img src="/images/studio/mosaic-small-01.jpg" alt="Tattoo by Imprints Creations" />
+          <img src="/images/studio/mosaic-med-01.jpg" alt="Tattoo by Imprints Creations" />
+          <img src="/images/studio/mosaic-small-04.jpg" alt="Tattoo by Imprints Creations" />
+          <img src="/images/studio/mosaic-big-02.jpg" alt="Tattoo by Imprints Creations" />
+          <img src="/images/studio/mosaic-small-02.jpg" alt="Tattoo by Imprints Creations" />
+          <img src="/images/studio/mosaic-small-05.jpg" alt="Tattoo by Imprints Creations" />
+          <img src="/images/studio/mosaic-med-02.jpg" alt="Tattoo by Imprints Creations" />
+          <img src="/images/studio/mosaic-small-03.jpg" alt="Tattoo by Imprints Creations" />
+          <img src="/images/studio/mosaic-big-03.jpg" alt="Tattoo by Imprints Creations" />
+          <img src="/images/studio/mosaic-small-06.jpg" alt="Tattoo by Imprints Creations" />
+          <img src="/images/studio/mosaic-med-03.jpg" alt="Tattoo by Imprints Creations" />
+        </div>
+
+        <div style="text-align:center; margin-top:3rem;">
+          <a href="https://instagram.com/imprintstattoos" target="_blank" class="btn btn-outline">See More on Instagram</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hygiene & Safety -->
+    <section class="section" style="background:var(--bg);">
+      <div class="container">
+        <div class="hygiene-grid">
+          <div class="hygiene-text">
+            <p class="eyebrow">Your Safety</p>
+            <div class="divider"></div>
+            <h2 class="display display-lg" style="color:var(--text);">
+              Hygiene & <em style="color:var(--gold-primary);">Safety</em>
+            </h2>
+            <p class="body-lg" style="margin-top:1.5rem;">
+              Your safety is our highest priority. We maintain strict hygiene
+              standards using sterile equipment, single-use needles, premium-quality
+              inks, and a clean working environment to ensure every tattoo experience
+              is safe and professional.
+            </p>
+            <div class="hygiene-points">
+              <div class="hygiene-point">
+                <span class="hygiene-dot"></span>
+                Sterile, single-use needles
+              </div>
+              <div class="hygiene-point">
+                <span class="hygiene-dot"></span>
+                Premium quality inks
+              </div>
+              <div class="hygiene-point">
+                <span class="hygiene-dot"></span>
+                Clean working environment
+              </div>
+              <div class="hygiene-point">
+                <span class="hygiene-dot"></span>
+                Professional sterilisation
+              </div>
+            </div>
+          </div>
+          <div class="hygiene-img">
+            <img src="/images/studio/studio-setup.jpg" alt="Studio setup" class="hygiene-photo" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Piercing -->
+    <section class="section" id="piercing" style="background:var(--warm-surface);">
+      <div class="container" style="text-align:center;">
+        <p class="eyebrow">Also Available</p>
+        <div class="divider divider-center"></div>
+        <h2 class="display display-lg" style="color:var(--text);">
+          Piercing <em style="color:var(--gold-primary);">Services</em>
+        </h2>
+        <p class="body-lg" style="max-width:500px; margin:1rem auto 2.5rem;">
+          Professional piercing services available for:
+        </p>
+        <div class="styles-row">
+          <span class="style-text">Ear</span>
+          <span class="style-text">Nose</span>
+          <span class="style-text">Eyebrow</span>
+          <span class="style-text">Lip</span>
+          <span class="style-text">Navel</span>
+          <span class="style-text">Industrial</span>
+          <span class="style-text">Cartilage</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Aftercare -->
+    <section class="section" id="aftercare" style="background:var(--bg);">
+      <div class="container">
+        <div style="text-align:center; margin-bottom:4rem;">
+          <p class="eyebrow">Aftercare</p>
+          <div class="divider divider-center"></div>
+          <h2 class="display display-lg" style="color:var(--text);">
+            Your tattoo is just <em style="color:var(--gold-primary);">the beginning.</em>
+          </h2>
+          <p class="body-lg" style="max-width:500px; margin:1rem auto 0;">
+            Following proper aftercare helps ensure the best possible result.
+          </p>
+        </div>
+        <div class="aftercare-grid">
+          <div class="aftercare-card">
+            <h3 class="aftercare-title">First Day</h3>
+            <ul class="aftercare-list">
+              <li>Remove wrap after approximately 2 hours</li>
+              <li>Wash gently using baby soap</li>
+              <li>Pat dry carefully</li>
+            </ul>
+          </div>
+          <div class="aftercare-card">
+            <h3 class="aftercare-title">Healing</h3>
+            <ul class="aftercare-list">
+              <li>Apply recommended moisturizer</li>
+              <li>Do not scratch or peel</li>
+              <li>Healing takes 2 to 3 weeks</li>
+            </ul>
+          </div>
+          <div class="aftercare-card">
+            <h3 class="aftercare-title">Avoid</h3>
+            <ul class="aftercare-list">
+              <li>Direct sunlight</li>
+              <li>Swimming</li>
+              <li>Excessive sweating</li>
+            </ul>
+          </div>
+          <div class="aftercare-card">
+            <h3 class="aftercare-title">Long Term</h3>
+            <ul class="aftercare-list">
+              <li>Use sunscreen once healed</li>
+              <li>Moisturise regularly</li>
+              <li>Keep out of prolonged sun exposure</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Book Consultation -->
+    <section class="section" id="consult" style="background:var(--warm-surface);">
+      <div class="container" style="text-align:center;">
+        <p class="eyebrow">Get Started</p>
+        <div class="divider divider-center"></div>
+        <h2 class="display display-lg" style="color:var(--text);">
+          Let's create something <em style="color:var(--gold-primary);">meaningful.</em>
+        </h2>
+        <p class="body-lg" style="max-width:480px; margin:1rem auto 2rem;">
+          Every tattoo begins with a conversation. Reach out and we'll get back to you to arrange your consultation.
+        </p>
+        <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+          <a href="/contact" class="btn btn-primary">Book a Consultation</a>
+          <a href="https://wa.me/919620609848" target="_blank" class="btn btn-outline">WhatsApp Us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <img src="/images/logo/logo.svg" alt="Imprints Creations" class="footer-logo-img" />
+            <p class="footer-brand-tagline">Welcome, Free Soul.</p>
+            <p style="font-size:13px; color:rgba(255,253,249,0.5); margin-top:0.75rem; line-height:1.6;">
+              1023, 3rd Floor, 80 Feet Road<br />
+              Koramangala 1st Block<br />
+              Bengaluru
+            </p>
+            <p style="font-size:13px; color:rgba(255,253,249,0.5); margin-top:0.5rem;">
+              +91 9620609848
+            </p>
+            <div class="footer-social" style="margin-top:1.25rem;">
+              <a href="https://instagram.com/imprintscreations" target="_blank">Instagram</a>
+              <a href="https://wa.me/919620609848" target="_blank">WhatsApp</a>
+            </div>
+          </div>
+          <div>
+            <p class="footer-heading">Navigate</p>
+            <ul class="footer-links">
+              <li><a href="/">Home</a></li>
+              <li><a href="/artwork">Artwork</a></li>
+              <li><a href="/collections">Collections</a></li>
+              <li><a href="/contact">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="footer-heading">Studio</p>
+            <ul class="footer-links">
+              <li><a href="/studio#styles">Tattoo Styles</a></li>
+              <li><a href="/studio#piercing">Piercing</a></li>
+              <li><a href="/studio#aftercare">Aftercare</a></li>
+              <li><a href="/contact">Book a Consultation</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="footer-heading">Connect</p>
+            <ul class="footer-links">
+              <li><a href="https://instagram.com/imprintstattoos" target="_blank">@imprintstattoos</a></li>
+              <li><a href="https://instagram.com/imprintscreations" target="_blank">@imprintscreations</a></li>
+              <li><a href="https://wa.me/919620609848" target="_blank">WhatsApp</a></li>
+              <li><a href="https://share.google/6woIQnfHs7hUAQbKP" target="_blank">Google Reviews</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2025 Imprints Creations. All rights reserved.</p>
+          <p>Koramangala, Bengaluru</p>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+</Layout>
+
+<style>
+  .studio-hero {
+    position: relative;
+    height: 70vh;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+  .studio-hero-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .studio-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(15,12,8,0.65);
+  }
+  .studio-hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .philosophy-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: center;
+  }
+  .philosophy-img { position: relative; }
+  .philosophy-photo {
+    width: 100%;
+    aspect-ratio: 4/5;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+  }
+  .philosophy-accent {
+    position: absolute;
+    bottom: -14px; right: -14px;
+    width: 78%; height: 78%;
+    border: 1px solid var(--gold-secondary);
+    z-index: -1;
+  }
+
+  .journey-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.5rem;
+  }
+  .journey-step {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 2rem 1.5rem;
+    border: 1px solid var(--border-warm);
+    background: var(--bg);
+  }
+  .journey-icon {
+    color: var(--gold-secondary);
+    margin-bottom: 0.5rem;
+  }
+  .journey-icon svg {
+    display: block;
+  }
+  .journey-number {
+    font-family: var(--font-display);
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: var(--gold-secondary);
+    line-height: 1;
+  }
+  .journey-title {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    color: var(--text);
+    text-transform: uppercase;
+  }
+
+  .styles-row {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  .style-text {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gold-primary);
+  }
+
+  /* Masonry columns - no gaps, natural flow */
+  .mosaic-columns {
+    column-count: 4;
+    column-gap: 1rem;
+  }
+  .mosaic-columns img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 1rem;
+    border-radius: var(--radius-sm);
+    break-inside: avoid;
+    transition: transform 0.5s ease, opacity 0.3s ease;
+  }
+  .mosaic-columns img:hover {
+    opacity: 0.92;
+  }
+
+  .hygiene-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: center;
+  }
+  .hygiene-img { height: 480px; overflow: hidden; }
+  .hygiene-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .hygiene-points {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  .hygiene-point {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 14px;
+    color: var(--text-light);
+  }
+  .hygiene-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--gold-secondary);
+    flex-shrink: 0;
+  }
+
+  .aftercare-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+  }
+  .aftercare-card {
+    padding: 2rem;
+    border: 1px solid var(--border-warm);
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  .aftercare-title {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--gold-primary);
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .aftercare-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+  .aftercare-list li {
+    font-size: 14px;
+    color: var(--text-light);
+    padding-left: 1rem;
+    position: relative;
+  }
+  .aftercare-list li::before {
+    content: '·';
+    position: absolute;
+    left: 0;
+    color: var(--gold-secondary);
+  }
+
+  @media (max-width: 1024px) {
+    .journey-grid { grid-template-columns: repeat(3, 1fr); }
+    .aftercare-grid { grid-template-columns: repeat(2, 1fr); }
+    .mosaic-columns { column-count: 3; }
+  }
+  @media (max-width: 900px) {
+    .philosophy-grid { grid-template-columns: 1fr; gap: 3rem; }
+    .hygiene-grid { grid-template-columns: 1fr; gap: 3rem; }
+  }
+  @media (max-width: 600px) {
+    .journey-grid { grid-template-columns: 1fr 1fr; }
+    .mosaic-columns { column-count: 2; }
+    .aftercare-grid { grid-template-columns: 1fr; }
+  }
+</style>

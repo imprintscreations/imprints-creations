@@ -1,0 +1,265 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Navbar from "../components/Navbar.astro";
+import "../styles/global.css";
+---
+
+<Layout title="Gallery | Imprints Creations">
+  <Navbar />
+  <main style="padding-top: var(--nav-h);">
+
+    <!-- Hero -->
+    <section class="gallery-hero">
+      <img src="/images/artwork/gallery-hero.jpg" alt="Imprints Creations Gallery" class="gallery-hero-img" />
+      <div class="gallery-hero-overlay"></div>
+      <div class="container gallery-hero-content">
+        <p class="eyebrow" style="color:var(--gold-secondary);">The Gallery</p>
+        <div class="divider divider-center" style="background:var(--gold-secondary);"></div>
+        <h1 class="display display-xl" style="color:#fff;">
+          Original works created to <em style="color:var(--gold-secondary);">inspire.</em>
+        </h1>
+      </div>
+    </section>
+
+    <!-- Intro -->
+    <section class="section" style="background:var(--bg);">
+      <div class="container" style="text-align:center; max-width:700px; margin-inline:auto;">
+        <p class="eyebrow">Original Artwork</p>
+        <div class="divider divider-center"></div>
+        <h2 class="display display-lg" style="color:var(--text);">
+          Art made with <em style="color:var(--gold-primary);">intention.</em>
+        </h2>
+        <p class="body-lg" style="margin-top:1.25rem;">
+          From expressive paintings and detailed portraits to commissioned pieces
+          and large-scale murals, every artwork is created with craftsmanship
+          and individuality.
+        </p>
+        <div class="styles-row" style="margin-top:2rem;">
+          <span class="style-text">Original Paintings</span>
+          <span class="style-text">Portrait Paintings</span>
+          <span class="style-text">Acrylic on Canvas</span>
+          <span class="style-text">Oil Paintings</span>
+          <span class="style-text">Commissioned Artwork</span>
+          <span class="style-text">Wall Murals</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="section" style="background:var(--warm-surface); padding-top:0;">
+      <div class="container">
+        <div class="artwork-grid">
+          <div class="artwork-item">
+            <img src="/images/artwork/artwork-01.jpg" alt="Original artwork by Imprints Creations" />
+            <div class="artwork-overlay">
+              <p class="artwork-label">Original Painting</p>
+            </div>
+          </div>
+          <div class="artwork-item">
+            <img src="/images/artwork/artwork-02.jpg" alt="Original artwork by Imprints Creations" />
+            <div class="artwork-overlay">
+              <p class="artwork-label">Abstract Painting</p>
+            </div>
+          </div>
+          <div class="artwork-item">
+            <img src="/images/artwork/artwork-03.jpg" alt="Original artwork by Imprints Creations" />
+            <div class="artwork-overlay">
+              <p class="artwork-label">Portrait Painting</p>
+            </div>
+          </div>
+          <div class="artwork-item">
+            <img src="/images/artwork/artwork-04.jpg" alt="Original artwork by Imprints Creations" />
+            <div class="artwork-overlay">
+              <p class="artwork-label">Original Painting</p>
+            </div>
+          </div>
+          <div class="artwork-item">
+            <img src="/images/artwork/artwork-05.jpg" alt="Original artwork by Imprints Creations" />
+            <div class="artwork-overlay">
+              <p class="artwork-label">Acrylic on Canvas</p>
+            </div>
+          </div>
+          <div class="artwork-item">
+            <img src="/images/artwork/artwork-06.jpg" alt="Original artwork by Imprints Creations" />
+            <div class="artwork-overlay">
+              <p class="artwork-label">Original Painting</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Commission CTA -->
+    <section class="section" style="background:var(--bg);">
+      <div class="container" style="text-align:center;">
+        <p class="eyebrow">Commission</p>
+        <div class="divider divider-center"></div>
+        <h2 class="display display-lg" style="color:var(--text);">
+          Looking for a <em style="color:var(--gold-primary);">custom artwork?</em>
+        </h2>
+        <p class="body-lg" style="max-width:480px; margin:1rem auto 2rem;">
+          We create commissioned paintings, portraits, murals and more.
+          Tell us your vision and we'll bring it to life.
+        </p>
+        <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+          <a href="/contact" class="btn btn-primary">Start a Commission</a>
+          <a href="https://instagram.com/imprintscreations" target="_blank" class="btn btn-outline">View on Instagram</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <img src="/images/logo/logo.svg" alt="Imprints Creations" class="footer-logo-img" />
+            <p class="footer-brand-tagline">Welcome, Free Soul.</p>
+            <p style="font-size:13px; color:rgba(255,253,249,0.5); margin-top:0.75rem; line-height:1.6;">
+              1023, 3rd Floor, 80 Feet Road<br />
+              Koramangala 1st Block<br />
+              Bengaluru
+            </p>
+            <p style="font-size:13px; color:rgba(255,253,249,0.5); margin-top:0.5rem;">
+              +91 9620609848
+            </p>
+            <div class="footer-social" style="margin-top:1.25rem;">
+              <a href="https://instagram.com/imprintscreations" target="_blank">Instagram</a>
+              <a href="https://wa.me/919620609848" target="_blank">WhatsApp</a>
+            </div>
+          </div>
+          <div>
+            <p class="footer-heading">Navigate</p>
+            <ul class="footer-links">
+              <li><a href="/">Home</a></li>
+              <li><a href="/studio">Studio</a></li>
+              <li><a href="/collections">Collections</a></li>
+              <li><a href="/contact">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="footer-heading">Studio</p>
+            <ul class="footer-links">
+              <li><a href="/studio#styles">Tattoo Styles</a></li>
+              <li><a href="/studio#piercing">Piercing</a></li>
+              <li><a href="/studio#aftercare">Aftercare</a></li>
+              <li><a href="/contact">Book a Consultation</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="footer-heading">Connect</p>
+            <ul class="footer-links">
+              <li><a href="https://instagram.com/imprintstattoos" target="_blank">@imprintstattoos</a></li>
+              <li><a href="https://instagram.com/imprintscreations" target="_blank">@imprintscreations</a></li>
+              <li><a href="https://wa.me/919620609848" target="_blank">WhatsApp</a></li>
+              <li><a href="https://share.google/6woIQnfHs7hUAQbKP" target="_blank">Google Reviews</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2025 Imprints Creations. All rights reserved.</p>
+          <p>Koramangala, Bengaluru</p>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+</Layout>
+
+<style>
+  .gallery-hero {
+    position: relative;
+    height: 70vh;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+  .gallery-hero-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .gallery-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(15,12,8,0.6);
+  }
+  .gallery-hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .styles-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  .style-text {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gold-primary);
+  }
+
+  .artwork-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  .artwork-item {
+    aspect-ratio: 1;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+  }
+  .artwork-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+  }
+  .artwork-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(15,12,8,0);
+    display: flex;
+    align-items: flex-end;
+    padding: 1.5rem;
+    transition: background 0.3s ease;
+  }
+  .artwork-item:hover .artwork-overlay {
+    background: rgba(15,12,8,0.55);
+  }
+  .artwork-label {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--white);
+    opacity: 0;
+    transform: translateY(8px);
+    transition: all 0.3s ease;
+  }
+  .artwork-item:hover .artwork-label {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .artwork-item:hover img { transform: scale(1.05); }
+
+  @media (max-width: 900px) {
+    .artwork-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 600px) {
+    .artwork-grid { grid-template-columns: 1fr 1fr; }
+  }
+</style>

@@ -1,0 +1,331 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Navbar from "../components/Navbar.astro";
+import "../styles/global.css";
+---
+
+<Layout title="Contact | Imprints Creations">
+  <Navbar />
+  <main style="padding-top: var(--nav-h);">
+
+    <!-- Hero -->
+    <section class="contact-hero">
+      <div class="container contact-hero-content">
+        <p class="eyebrow">Get in Touch</p>
+        <div class="divider divider-center"></div>
+        <h1 class="display display-xl" style="color:var(--text);">
+          Visit <em style="color:var(--gold-primary);">Imprints Creations</em>
+        </h1>
+        <p class="body-lg" style="max-width:500px; margin-top:1rem;">
+          We'd love to hear your ideas. Come visit us or reach out below.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Info + Form -->
+    <section class="section" style="background:var(--bg);">
+      <div class="container">
+        <div class="contact-grid">
+
+          <!-- Left: Info -->
+          <div class="contact-info">
+            <div class="info-block">
+              <p class="eyebrow">Address</p>
+              <div class="divider"></div>
+              <p class="body-lg">
+                Imprints Tattoo Studio<br />
+                1023, 3rd Floor, 80 Feet Road<br />
+                Koramangala 1st Block<br />
+                Bengaluru — 560034
+              </p>
+              <a href="https://www.google.com/maps/place/Imprints+Tattoo+Studio/@12.930670,77.630560,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae151ba7a5c027:0x8ef82a1bf8c39f04!8m2!3d12.930670!4d77.630560!16s%2Fg%2F11vfd4x4qf" target="_blank" class="btn btn-ghost" style="margin-top:1rem;">
+                Get Directions
+              </a>
+            </div>
+
+            <div class="info-block">
+              <p class="eyebrow">Phone & WhatsApp</p>
+              <div class="divider"></div>
+              <p class="body-lg">+91 9620609848</p>
+              <a href="https://wa.me/919620609848" target="_blank" class="btn btn-ghost" style="margin-top:1rem;">
+                Chat on WhatsApp
+              </a>
+            </div>
+
+            <div class="info-block">
+              <p class="eyebrow">Opening Hours</p>
+              <div class="divider"></div>
+              <div class="hours-list">
+                <div class="hours-row">
+                  <span>Monday – Saturday</span>
+                  <span>11:00 AM – 8:00 PM</span>
+                </div>
+                <div class="hours-row">
+                  <span>Sunday</span>
+                  <span>By Appointment</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="info-block">
+              <p class="eyebrow">Follow Our Journey</p>
+              <div class="divider"></div>
+              <div class="social-links">
+                <a href="https://instagram.com/imprintstattoos" target="_blank" class="social-link">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                  </svg>
+                  @imprintstattoos
+                </a>
+                <a href="https://instagram.com/imprintscreations" target="_blank" class="social-link">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                  </svg>
+                  @imprintscreations
+                </a>
+                <a href="https://share.google/6woIQnfHs7hUAQbKP" target="_blank" class="social-link">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/>
+                  </svg>
+                  Google Reviews
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Form -->
+          <div class="contact-form-wrap">
+            <p class="eyebrow">Send a Message</p>
+            <div class="divider"></div>
+            <h2 class="display display-md" style="color:var(--text);">
+              Tell us your <em style="color:var(--gold-primary);">story.</em>
+            </h2>
+            <p class="body-md" style="margin-top:0.75rem; margin-bottom:2rem;">
+              Whether it's a tattoo idea, artwork commission, or general enquiry — we'd love to hear from you.
+            </p>
+            <form class="contact-form" id="contactForm" action="https://formspree.io/f/mwvdnada" method="POST">
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label">Your Name</label>
+                  <input type="text" name="name" class="form-input" placeholder="Naveen Nambiar" required />
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Phone Number</label>
+                  <input type="tel" name="phone" class="form-input" placeholder="+91 98765 43210" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Email Address</label>
+                <input type="email" name="email" class="form-input" placeholder="hello@imprintscreations.com" required />
+              </div>
+              <div class="form-group">
+                <label class="form-label">What are you looking for?</label>
+                <select name="enquiry_type" class="form-input form-select">
+                  <option value="">Select an option</option>
+                  <option>Tattoo Consultation</option>
+                  <option>Commissioned Artwork</option>
+                  <option>Collections / Products</option>
+                  <option>Piercing</option>
+                  <option>General Enquiry</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Tell us more</label>
+                <textarea name="message" class="form-input form-textarea" placeholder="Share your idea, story or any questions you have..." rows="5"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">
+                Send Message
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Map -->
+    <section style="height:450px; background:var(--warm-surface);">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.642710331843!2d77.63055967411964!3d12.930670215776258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae151ba7a5c027%3A0x8ef82a1bf8c39f04!2sImprints%20Tattoo%20Studio!5e0!3m2!1sen!2sin!4v1782837158158!5m2!1sen!2sin"
+        width="100%"
+        height="450"
+        style="border:0; display:block;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin"
+        title="Imprints Creations location">
+      </iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <img src="/images/logo/logo.svg" alt="Imprints Creations" class="footer-logo-img" />
+            <p class="footer-brand-tagline">Welcome, Free Soul.</p>
+            <p style="font-size:13px; color:rgba(255,253,249,0.5); margin-top:0.75rem; line-height:1.6;">
+              1023, 3rd Floor, 80 Feet Road<br />
+              Koramangala 1st Block<br />
+              Bengaluru
+            </p>
+            <p style="font-size:13px; color:rgba(255,253,249,0.5); margin-top:0.5rem;">
+              +91 9620609848
+            </p>
+            <div class="footer-social" style="margin-top:1.25rem;">
+              <a href="https://instagram.com/imprintscreations" target="_blank">Instagram</a>
+              <a href="https://wa.me/919620609848" target="_blank">WhatsApp</a>
+            </div>
+          </div>
+          <div>
+            <p class="footer-heading">Navigate</p>
+            <ul class="footer-links">
+              <li><a href="/">Home</a></li>
+              <li><a href="/studio">Studio</a></li>
+              <li><a href="/artwork">Artwork</a></li>
+              <li><a href="/collections">Collections</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="footer-heading">Studio</p>
+            <ul class="footer-links">
+              <li><a href="/studio#styles">Tattoo Styles</a></li>
+              <li><a href="/studio#piercing">Piercing</a></li>
+              <li><a href="/studio#aftercare">Aftercare</a></li>
+              <li><a href="/contact">Book a Consultation</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="footer-heading">Connect</p>
+            <ul class="footer-links">
+              <li><a href="https://instagram.com/imprintstattoos" target="_blank">@imprintstattoos</a></li>
+              <li><a href="https://instagram.com/imprintscreations" target="_blank">@imprintscreations</a></li>
+              <li><a href="https://wa.me/919620609848" target="_blank">WhatsApp</a></li>
+              <li><a href="https://share.google/6woIQnfHs7hUAQbKP" target="_blank">Google Reviews</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2025 Imprints Creations. All rights reserved.</p>
+          <p>Koramangala, Bengaluru</p>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+</Layout>
+
+<style>
+  .contact-hero {
+    padding-block: 5rem;
+    background: var(--warm-surface);
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+  .contact-hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: 5rem;
+    align-items: start;
+  }
+
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  .info-block {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .hours-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+  }
+  .hours-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: var(--text-light);
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+  }
+  .social-link {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 14px;
+    color: var(--text-light);
+    transition: color 0.3s ease;
+  }
+  .social-link:hover { color: var(--gold-primary); }
+
+  .contact-form-wrap {
+    background: var(--warm-surface);
+    padding: 3rem;
+    border: 1px solid var(--border-warm);
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  .form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .form-label {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-light);
+  }
+  .form-input {
+    font-family: var(--font-body);
+    font-size: 14px;
+    color: var(--text);
+    background: var(--bg);
+    border: 1px solid var(--border-warm);
+    padding: 12px 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    width: 100%;
+    border-radius: 2px;
+  }
+  .form-input:focus { border-color: var(--gold-primary); }
+  .form-input::placeholder { color: var(--neutral-gray); }
+  .form-select { cursor: pointer; }
+  .form-textarea { resize: vertical; min-height: 140px; }
+
+  @media (max-width: 900px) {
+    .contact-grid { grid-template-columns: 1fr; gap: 3rem; }
+    .form-row { grid-template-columns: 1fr; }
+    .contact-form-wrap { padding: 2rem 1.5rem; }
+  }
+</style>
